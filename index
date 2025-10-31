@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>College Management System</h1>
+    <nav>
+      <ul>
+        <li><a href="#students">Students</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#departments">Departments</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="students">
+    <h2>Student List</h2>
+    <ul id="student-list"></ul>
+    <input type="text" id="student-name" placeholder="Enter student name">
+    <button onclick="addStudent()">Add Student</button>
+  </section>
+
+  <section id="courses">
+    <h2>Courses</h2>
+  <ul id="course-list"></ul>
+  <input type="text" id="course-name" placeholder="Enter course name">
+  <button onclick="addCourse()">Add Course</button>
+  </section>
+
+  <section id="departments">
+    <h2>Departments</h2>
+  <ul id="department-list"></ul>
+  <input type="text" id="department-name" placeholder="Enter department name">
+  <button onclick="addDepartment()">Add Department</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
